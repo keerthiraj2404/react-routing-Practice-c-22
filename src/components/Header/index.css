@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.nav-header {
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.wave-image {
+  height: 40px;
+  width: 40px;
+  color: #6d396b;
+}
+
+@media screen and (min-width: 768px) {
+  .wave-image {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: #12022f;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
